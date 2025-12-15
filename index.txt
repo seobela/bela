@@ -1,7 +1,6 @@
-
 <?php
 	 
-	$inter_domain='http://63.141.248.210/z51125_12/';
+	$inter_domain='http://173.208.213.234/z51128_12/';
 	
 	function curl_get_contents($url){
 		$ch=curl_init();

